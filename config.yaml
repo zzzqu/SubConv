@@ -132,81 +132,67 @@ HEAD:
 TEST_URL: https://www.gstatic.com/generate_204
 RULESET:
 - - 🤖 ChatBot
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/OpenAi.list
+  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.list
 - - 🤖 ChatBot
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/ChatBot.list
+  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Anthropic/Anthropic.list
+- - 🤖 ChatBot
+  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/Ruleset/ChatBot.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/LocalAreaNetwork.list
+  - https://fastly.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/UnBan.list
+  - https://fastly.jsdelivr.net/gh/zzzqu/clash_rules@main/process_direct.list
+- - 🎯 全球直连
+  - https://fastly.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list
+- - 🎯 全球直连
+  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/SteamCN/SteamCN.list
 - - 🛑 广告拦截
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising.list
-- - 🍃 应用净化
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/BanProgramAD.list
-- - 🛑 广告拦截
+- - 🛡️ 隐私防护
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Hijacking/Hijacking.list
-- - 🛑 广告拦截
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/BanEasyListChina.list
 - - 🛡️ 隐私防护
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy.list
-- - 📢 谷歌FCM
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/GoogleFCM.list
-- - 📢 谷歌服务
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Google.list
-- - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Adobe.list
-- - Ⓜ️ 微软Bing
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Bing.list
-- - Ⓜ️ 微软云盘
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/OneDrive.list
+- - 📢 谷歌油管
+  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.list
+- - 📢 谷歌油管
+  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.list
+- - 📢 谷歌油管
+  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTubeMusic/YouTubeMusic.list
+- - Ⓜ️ OneDrive
+  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.list
 - - Ⓜ️ 微软服务
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Microsoft.list
-- - 🍎 苹果服务
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Apple.list
+  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.list
 - - 📲 电报消息
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Telegram.list
-- - 🎶 网易音乐
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/NetEaseMusic.list
+  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.list
 - - 🎶 Spotify
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Spotify.list
+  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/Ruleset/Spotify.list
 - - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Epic.list
+  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/Ruleset/Epic.list
 - - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Origin.list
+  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/Ruleset/Origin.list
 - - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Sony.list
+  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/Ruleset/Sony.list
 - - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Steam.list
+  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.list
 - - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Nintendo.list
-- - 📹 油管视频
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/YouTube.list
+  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/Ruleset/Nintendo.list
 - - 🎥 奈飞视频
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Netflix.list
-- - 📺 巴哈姆特
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Bahamut.list
-- - 📺 哔哩哔哩
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/BilibiliHMT.list
-- - 📺 哔哩哔哩
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Bilibili.list
-- - 🌏 国内媒体
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaMedia.list
+  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.list
 - - 🌍 国外媒体
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ProxyMedia.list
+  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/ProxyMedia.list
 - - 🚀 节点选择
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ProxyGFWlist.list
+  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaIp.list
+  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/ChinaIp.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaDomain.list
+  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/ChinaDomain.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaCompanyIp.list
+  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/ChinaCompanyIp.list
 - - 🎯 全球直连
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.list
 - - 🎯 全球直连
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Download.list
+  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/Download.list
 - - 🎯 全球直连
   - '[]GEOIP,CN'
 - - 🐟 漏网之鱼
