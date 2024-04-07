@@ -142,6 +142,10 @@ RULESET:
 - - 🎯 全球直连
   - https://fastly.jsdelivr.net/gh/zzzqu/clash_rules@main/process_direct.list
 - - 🎯 全球直连
+  - https://fastly.jsdelivr.net/gh/zzzqu/clash_rules@main/ziyongzhilian.list
+- - 🚀 节点选择
+  - https://fastly.jsdelivr.net/gh/zzzqu/clash_rules@main/ziyongproxy.list
+- - 🎯 全球直连
   - https://fastly.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list
 - - 🎯 全球直连
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.list
