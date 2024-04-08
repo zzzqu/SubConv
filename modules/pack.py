@@ -64,8 +64,8 @@ async def pack(url: list, urlstandalone: list, urlstandby:list, urlstandbystanda
                         "interval": int(interval),
                         "path": "./sub/subscription{}.yaml".format(u),
                         "health-check": {
-                            "enable": True,
-                            "interval": 60,
+                            "enable": False,
+                            "interval": 600,
                             # "lazy": True,
                             "url": config.configInstance.TEST_URL
                         }
@@ -80,8 +80,8 @@ async def pack(url: list, urlstandalone: list, urlstandby:list, urlstandbystanda
                         "interval": int(interval),
                         "path": "./sub/subscription{}.yaml".format("sub"+str(u)),
                         "health-check": {
-                            "enable": True,
-                            "interval": 60,
+                            "enable": False,
+                            "interval": 600,
                             # "lazy": True,
                              "url": config.configInstance.TEST_URL
                         }
