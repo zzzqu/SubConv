@@ -131,11 +131,11 @@ HEAD:
     - +.xboxlive.com
 TEST_URL: https://www.gstatic.com/generate_204
 RULESET:
-- - 🤖 ChatBot
+- - 🤖 AICHAT
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.list
-- - 🤖 ChatBot
+- - 🤖 AICHAT
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Anthropic/Anthropic.list
-- - 🤖 ChatBot
+- - 🤖 AICHAT
   - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/Ruleset/ChatBot.list
 - - 🎯 全球直连
   - https://fastly.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
@@ -152,11 +152,7 @@ RULESET:
 - - 🎯 全球直连
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/SteamCN/SteamCN.list
 - - 🛑 广告拦截
-  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising.list
-- - 🛡️ 隐私防护
-  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Hijacking/Hijacking.list
-- - 🛡️ 隐私防护
-  - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Privacy/Privacy.list
+  - https://fastly.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-surge.txt
 - - 📢 谷歌油管
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.list
 - - 📢 谷歌油管
@@ -167,10 +163,8 @@ RULESET:
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.list
 - - Ⓜ️ 微软服务
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.list
-- - 📲 电报消息
+- - 📲 Telegram
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.list
-- - 🎶 Spotify
-  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/Ruleset/Spotify.list
 - - 🎮 游戏平台
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Epic/Epic.list
 - - 🎮 游戏平台
@@ -181,8 +175,6 @@ RULESET:
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.list
 - - 🎥 奈飞视频
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.list
-- - 🌍 国外媒体
-  - https://fastly.jsdelivr.net/gh/SubConv/ZJU-Rule@main/Clash/ProxyMedia.list
 - - 🚀 节点选择
   - https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Proxy/Proxy.list
 - - 🎯 全球直连
@@ -205,16 +197,13 @@ CUSTOM_PROXY_GROUP:
   type: select
   manual: true
   rule: false
-- name: 🤖 ChatBot
+- name: 🤖 AICHAT
   type: select
   prior: PROXY
-- name: 📲 电报消息
+- name: 📲 Telegram
   type: select
   prior: PROXY
 - name: 🎥 奈飞视频
-  type: select
-  prior: PROXY
-- name: 🌍 国外媒体
   type: select
   prior: PROXY
 - name: 📢 谷歌油管
@@ -222,23 +211,17 @@ CUSTOM_PROXY_GROUP:
   prior: PROXY
 - name: Ⓜ️ OneDrive
   type: select
-  prior: DIRECT
+  prior: PROXY
 - name: Ⓜ️ 微软服务
   type: select
   prior: DIRECT
 - name: 🎮 游戏平台
   type: select
   prior: DIRECT
-- name: 🎶 Spotify
-  type: select
-  prior: DIRECT
 - name: 🎯 全球直连
   type: select
   prior: DIRECT
 - name: 🛑 广告拦截
-  type: select
-  prior: REJECT
-- name: 🛡️ 隐私防护
   type: select
   prior: REJECT
 - name: 🐟 漏网之鱼
