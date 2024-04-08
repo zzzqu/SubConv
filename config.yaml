@@ -19,6 +19,7 @@ HEAD:
     - 1.1.1.1
     - 119.29.29.29
     nameserver-policy:
+      '+.msftconnecttest.com': '223.5.5.5'
       geosite:gfw,geolocation-!cn:
       - 'https://dns.cloudflare.com/dns-query#h3=true'
       - https://dns.google/dns-query
