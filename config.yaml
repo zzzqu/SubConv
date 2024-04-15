@@ -21,7 +21,7 @@ HEAD:
       'msftconnecttest.com': [223.5.5.5]
       '+.msftconnecttest.com': [223.5.5.5]
       'a.ncepu.edu.cn': [59.67.225.34, 59.67.225.35]
-      'geosite:geolocation-!cn': [tls://8.8.4.4, https://1.0.0.1/dns-query]
+      'geosite:geolocation-!cn': [tls://8.8.4.4, https://1.0.0.1/dns-query, https://8.8.8.8/dns-query]
     nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
