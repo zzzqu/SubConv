@@ -166,7 +166,7 @@ RULESET:
   - - 🎯 全球直连
     - https://raw.githubusercontent.com/zzzqu/clash_rules/main/process_direct.list
   - - 🎯 全球直连
-    - https://raw.githubusercontent.com/zzzqu/clash_rules/main/ziyongzhilian.list
+    - https://gist.githubusercontent.com/zzzqu/cff76d14b3837247cec338d6d0a14ce3/raw/015f73362b7fe3fb9ddfb6acb2638ef8fc8991eb/ziyongzhilian.list
   - - 🚀 节点选择
     - https://raw.githubusercontent.com/zzzqu/clash_rules/main/ziyongproxy.list
   - - 🎯 全球直连
